@@ -1,0 +1,9 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+models/*.keras
+models/*.json
+data/testcases.db
+output/
+.pytest_cache/

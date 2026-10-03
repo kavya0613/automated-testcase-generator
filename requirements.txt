@@ -1,0 +1,28 @@
+# ---- Core ----
+langchain>=0.3
+langchain-core>=0.3
+tensorflow>=2.16          # Python 3.10 - 3.12 recommended
+scikit-learn>=1.3
+numpy>=1.26
+pandas>=2.0
+openpyxl>=3.1
+pydantic>=2.5
+python-dotenv>=1.0
+
+# ---- UI / API ----
+streamlit>=1.35
+fastapi>=0.110
+uvicorn>=0.29
+
+# ---- Testing ----
+pytest>=8.0
+
+# ---- LLM provider: install ONE of these (or none -> offline template mode) ----
+# langchain-google-genai    # Gemini (has a free tier)
+# langchain-openai          # OpenAI
+# langchain-anthropic       # Claude
+# langchain-ollama          # local models via Ollama (no API key)
+
+# ---- Optional dense embeddings for relevance / duplicate detection ----
+# langchain-huggingface
+# sentence-transformers

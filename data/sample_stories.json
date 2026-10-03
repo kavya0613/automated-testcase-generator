@@ -1,0 +1,12 @@
+[
+  {"id": 1, "title": "Login", "user_story": "As a registered user, I want to log into the application using my registered email and password so that I can access my account."},
+  {"id": 2, "title": "Payment", "user_story": "As a customer, I want to pay for my order using a credit card so that I can complete my purchase securely."},
+  {"id": 3, "title": "Registration", "user_story": "As a new visitor, I want to create an account with my name, email and password so that I can use the application."},
+  {"id": 4, "title": "Search", "user_story": "As a shopper, I want to search for products using keywords and filter the results by price so that I can find items quickly."},
+  {"id": 5, "title": "Shopping cart", "user_story": "As a customer, I want to add items to my shopping cart and update their quantity so that I can buy several products together."},
+  {"id": 6, "title": "Profile", "user_story": "As a logged-in user, I want to update my name, phone number and profile picture so that my information stays current."},
+  {"id": 7, "title": "Notifications", "user_story": "As a member, I want to receive an email notification when my order ships and be able to turn notifications off so that I stay informed without being disturbed."},
+  {"id": 8, "title": "Data management", "user_story": "As an admin, I want to create, edit and delete employee records so that the employee data stays accurate."},
+  {"id": 9, "title": "Password reset", "user_story": "As an account holder, I want to reset my forgotten password using an email link so that I can regain access to my account."},
+  {"id": 10, "title": "Vague story (quality demo)", "user_story": "The system should handle login properly and be fast, etc."}
+]
