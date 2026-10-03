@@ -1,7 +1,7 @@
 # ---- Core ----
 langchain>=0.3
 langchain-core>=0.3
-tensorflow>=2.16          # Python 3.10 - 3.12 recommended
+tensorflow>=2.16
 scikit-learn>=1.3
 numpy>=1.26
 pandas>=2.0
@@ -17,12 +17,5 @@ uvicorn>=0.29
 # ---- Testing ----
 pytest>=8.0
 
-# ---- LLM provider: install ONE of these (or none -> offline template mode) ----
-# langchain-google-genai    # Gemini (has a free tier)
-# langchain-openai          # OpenAI
-# langchain-anthropic       # Claude
-# langchain-ollama          # local models via Ollama (no API key)
-
-# ---- Optional dense embeddings for relevance / duplicate detection ----
-# langchain-huggingface
-# sentence-transformers
+# ---- LLM provider ----
+langchain-google-genai
